@@ -1,0 +1,1568 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData body-parser
+20 silly mapToRegistry name body-parser
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'body-parser',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'body-parser',
+23 silly mapToRegistry   name: 'body-parser',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+25 silly fetchNamedPackageData express
+26 silly mapToRegistry name express
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'express',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'express',
+29 silly mapToRegistry   name: 'express',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/express
+31 silly fetchNamedPackageData express-session
+32 silly mapToRegistry name express-session
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'express-session',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'express-session',
+35 silly mapToRegistry   name: 'express-session',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/express-session
+37 silly fetchNamedPackageData react
+38 silly mapToRegistry name react
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'react',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'react',
+41 silly mapToRegistry   name: 'react',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/react
+43 silly fetchNamedPackageData react-dom
+44 silly mapToRegistry name react-dom
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'react-dom',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'react-dom',
+47 silly mapToRegistry   name: 'react-dom',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+49 silly fetchNamedPackageData react-redux
+50 silly mapToRegistry name react-redux
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'react-redux',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'react-redux',
+53 silly mapToRegistry   name: 'react-redux',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/react-redux
+55 silly fetchNamedPackageData react-router
+56 silly mapToRegistry name react-router
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'react-router',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'react-router',
+59 silly mapToRegistry   name: 'react-router',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/react-router
+61 silly fetchNamedPackageData redux
+62 silly mapToRegistry name redux
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'redux',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'redux',
+65 silly mapToRegistry   name: 'redux',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/redux
+67 silly fetchNamedPackageData redux-thunk
+68 silly mapToRegistry name redux-thunk
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'redux-thunk',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'redux-thunk',
+71 silly mapToRegistry   name: 'redux-thunk',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/redux-thunk
+73 silly fetchOtherPackageData fb-auth-boiler@git+https://git@github.com/WilliamCox7/fb-auth-boiler.git
+74 silly cache add args [ 'fb-auth-boiler@git+https://git@github.com/WilliamCox7/fb-auth-boiler.git',
+74 silly cache add   null ]
+75 verbose cache add spec fb-auth-boiler@git+https://git@github.com/WilliamCox7/fb-auth-boiler.git
+76 silly cache add parsed spec Result {
+76 silly cache add   raw: 'fb-auth-boiler@git+https://git@github.com/WilliamCox7/fb-auth-boiler.git',
+76 silly cache add   scope: null,
+76 silly cache add   escapedName: 'fb-auth-boiler',
+76 silly cache add   name: 'fb-auth-boiler',
+76 silly cache add   rawSpec: 'git+https://git@github.com/WilliamCox7/fb-auth-boiler.git',
+76 silly cache add   spec: 'git+https://git@github.com/WilliamCox7/fb-auth-boiler.git',
+76 silly cache add   type: 'hosted',
+76 silly cache add   hosted:
+76 silly cache add    { type: 'github',
+76 silly cache add      ssh: 'git@github.com:WilliamCox7/fb-auth-boiler.git',
+76 silly cache add      sshUrl: 'git+ssh://git@github.com/WilliamCox7/fb-auth-boiler.git',
+76 silly cache add      httpsUrl: 'git+https://git@github.com/WilliamCox7/fb-auth-boiler.git',
+76 silly cache add      gitUrl: 'git://git@github.com/WilliamCox7/fb-auth-boiler.git',
+76 silly cache add      shortcut: 'github:WilliamCox7/fb-auth-boiler',
+76 silly cache add      directUrl: 'https://git@raw.githubusercontent.com/WilliamCox7/fb-auth-boiler/master/package.json' } }
+77 verbose addRemoteGit caching git+https://git@github.com/WilliamCox7/fb-auth-boiler.git
+78 verbose addRemoteGit git+https://git@github.com/WilliamCox7/fb-auth-boiler.git is a repository hosted by github
+79 silly tryClone cloning git+https://git@github.com/WilliamCox7/fb-auth-boiler.git via git+https://git@github.com/WilliamCox7/fb-auth-boiler.git
+80 verbose tryClone git-https-git-github-com-WilliamCox7-fb-auth-boiler-git-0b9c3020 not in flight; caching
+81 verbose correctMkdir /Users/williamcox/.npm/_git-remotes correctMkdir not in flight; initializing
+82 verbose request uri https://registry.npmjs.org/body-parser
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 9:45:54 PM
+85 verbose request id 10fd46b0fb47ee8d
+86 verbose etag W/"5a1d571b-23386"
+87 verbose lastModified Tue, 28 Nov 2017 12:31:23 GMT
+88 http request GET https://registry.npmjs.org/body-parser
+89 verbose request uri https://registry.npmjs.org/express-session
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 9:45:54 PM
+92 verbose etag W/"5a1f272d-20f6a"
+93 verbose lastModified Wed, 29 Nov 2017 21:31:25 GMT
+94 http request GET https://registry.npmjs.org/express-session
+95 verbose request uri https://registry.npmjs.org/express
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 9:45:54 PM
+98 verbose etag W/"5a1edb0c-93731"
+99 verbose lastModified Wed, 29 Nov 2017 16:06:36 GMT
+100 http request GET https://registry.npmjs.org/express
+101 verbose request uri https://registry.npmjs.org/react-dom
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 9:45:54 PM
+104 verbose etag W/"5a1dd5f4-21715"
+105 verbose lastModified Tue, 28 Nov 2017 21:32:36 GMT
+106 http request GET https://registry.npmjs.org/react-dom
+107 verbose request uri https://registry.npmjs.org/react
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 9:45:54 PM
+110 verbose etag W/"5a1edc1a-32a78"
+111 verbose lastModified Wed, 29 Nov 2017 16:11:06 GMT
+112 http request GET https://registry.npmjs.org/react
+113 verbose request uri https://registry.npmjs.org/react-router
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 9:45:54 PM
+116 verbose etag W/"5a1cdf85-444ab"
+117 verbose lastModified Tue, 28 Nov 2017 04:01:09 GMT
+118 http request GET https://registry.npmjs.org/react-router
+119 verbose request uri https://registry.npmjs.org/redux-thunk
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 9:45:54 PM
+122 verbose etag W/"59fbc525-859e"
+123 verbose lastModified Fri, 03 Nov 2017 01:23:49 GMT
+124 http request GET https://registry.npmjs.org/redux-thunk
+125 verbose request uri https://registry.npmjs.org/redux
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 9:45:54 PM
+128 verbose etag W/"5a10fe32-29ffe"
+129 verbose lastModified Sun, 19 Nov 2017 03:44:50 GMT
+130 http request GET https://registry.npmjs.org/redux
+131 verbose request uri https://registry.npmjs.org/react-redux
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 9:45:54 PM
+134 verbose etag W/"5a019032-2ec88"
+135 verbose lastModified Tue, 07 Nov 2017 10:51:30 GMT
+136 http request GET https://registry.npmjs.org/react-redux
+137 info git [ 'clone',
+137 info git   '--template=/Users/williamcox/.npm/_git-remotes/_templates',
+137 info git   '--mirror',
+137 info git   'https://git@github.com/WilliamCox7/fb-auth-boiler.git',
+137 info git   '/Users/williamcox/.npm/_git-remotes/git-https-git-github-com-WilliamCox7-fb-auth-boiler-git-0b9c3020' ]
+138 http 200 https://registry.npmjs.org/redux-thunk
+139 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+139 verbose headers   server: 'UploadServer',
+139 verbose headers   'cache-control': 'max-age=300',
+139 verbose headers   'last-modified': 'Wed, 6 Dec 2017 0:53:15 GMT',
+139 verbose headers   etag: '"5a273f7b-85b4"',
+139 verbose headers   'content-length': '34228',
+139 verbose headers   'accept-ranges': 'bytes',
+139 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+139 verbose headers   via: '1.1 varnish',
+139 verbose headers   age: '1531',
+139 verbose headers   connection: 'keep-alive',
+139 verbose headers   'x-served-by': 'cache-bur17525-BUR',
+139 verbose headers   'x-cache': 'HIT',
+139 verbose headers   'x-cache-hits': '1',
+139 verbose headers   'x-timer': 'S1512621954.282855,VS0,VE1',
+139 verbose headers   vary: 'Accept-Encoding, Accept' }
+140 silly get cb [ 200,
+140 silly get   { 'content-type': 'application/json; charset=UTF-8',
+140 silly get     server: 'UploadServer',
+140 silly get     'cache-control': 'max-age=300',
+140 silly get     'last-modified': 'Wed, 6 Dec 2017 0:53:15 GMT',
+140 silly get     etag: '"5a273f7b-85b4"',
+140 silly get     'content-length': '34228',
+140 silly get     'accept-ranges': 'bytes',
+140 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+140 silly get     via: '1.1 varnish',
+140 silly get     age: '1531',
+140 silly get     connection: 'keep-alive',
+140 silly get     'x-served-by': 'cache-bur17525-BUR',
+140 silly get     'x-cache': 'HIT',
+140 silly get     'x-cache-hits': '1',
+140 silly get     'x-timer': 'S1512621954.282855,VS0,VE1',
+140 silly get     vary: 'Accept-Encoding, Accept' } ]
+141 verbose get saving redux-thunk to /Users/williamcox/.npm/registry.npmjs.org/redux-thunk/.cache.json
+142 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+143 silly resolveWithNewModule redux-thunk@2.2.0 checking installable status
+144 silly cache add args [ 'redux-thunk@^2.2.0', null ]
+145 verbose cache add spec redux-thunk@^2.2.0
+146 silly cache add parsed spec Result {
+146 silly cache add   raw: 'redux-thunk@^2.2.0',
+146 silly cache add   scope: null,
+146 silly cache add   escapedName: 'redux-thunk',
+146 silly cache add   name: 'redux-thunk',
+146 silly cache add   rawSpec: '^2.2.0',
+146 silly cache add   spec: '>=2.2.0 <3.0.0',
+146 silly cache add   type: 'range' }
+147 silly addNamed redux-thunk@>=2.2.0 <3.0.0
+148 verbose addNamed ">=2.2.0 <3.0.0" is a valid semver range for redux-thunk
+149 silly addNameRange { name: 'redux-thunk', range: '>=2.2.0 <3.0.0', hasData: false }
+150 silly mapToRegistry name redux-thunk
+151 silly mapToRegistry using default registry
+152 silly mapToRegistry registry https://registry.npmjs.org/
+153 silly mapToRegistry data Result {
+153 silly mapToRegistry   raw: 'redux-thunk',
+153 silly mapToRegistry   scope: null,
+153 silly mapToRegistry   escapedName: 'redux-thunk',
+153 silly mapToRegistry   name: 'redux-thunk',
+153 silly mapToRegistry   rawSpec: '',
+153 silly mapToRegistry   spec: 'latest',
+153 silly mapToRegistry   type: 'tag' }
+154 silly mapToRegistry uri https://registry.npmjs.org/redux-thunk
+155 verbose addNameRange registry:https://registry.npmjs.org/redux-thunk not in flight; fetching
+156 verbose get https://registry.npmjs.org/redux-thunk not expired, no request
+157 silly addNameRange number 2 { name: 'redux-thunk', range: '>=2.2.0 <3.0.0', hasData: true }
+158 silly addNameRange versions [ 'redux-thunk',
+158 silly addNameRange   [ '0.1.0',
+158 silly addNameRange     '1.0.0',
+158 silly addNameRange     '1.0.1',
+158 silly addNameRange     '1.0.2',
+158 silly addNameRange     '1.0.3',
+158 silly addNameRange     '2.0.1',
+158 silly addNameRange     '2.1.0',
+158 silly addNameRange     '2.1.1',
+158 silly addNameRange     '2.1.2',
+158 silly addNameRange     '2.2.0' ] ]
+159 silly addNamed redux-thunk@2.2.0
+160 verbose addNamed "2.2.0" is a plain semver version for redux-thunk
+161 silly cache afterAdd redux-thunk@2.2.0
+162 verbose afterAdd /Users/williamcox/.npm/redux-thunk/2.2.0/package/package.json not in flight; writing
+163 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+164 verbose afterAdd /Users/williamcox/.npm/redux-thunk/2.2.0/package/package.json written
+165 http 200 https://registry.npmjs.org/express-session
+166 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+166 verbose headers   server: 'UploadServer',
+166 verbose headers   'cache-control': 'max-age=300',
+166 verbose headers   'last-modified': 'Wed, 29 Nov 2017 21:31:25 GMT',
+166 verbose headers   etag: '"5a1f272d-20f6a"',
+166 verbose headers   'content-length': '135018',
+166 verbose headers   'accept-ranges': 'bytes',
+166 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+166 verbose headers   via: '1.1 varnish',
+166 verbose headers   age: '1121',
+166 verbose headers   connection: 'keep-alive',
+166 verbose headers   'x-served-by': 'cache-bur17520-BUR',
+166 verbose headers   'x-cache': 'HIT',
+166 verbose headers   'x-cache-hits': '1',
+166 verbose headers   'x-timer': 'S1512621954.280454,VS0,VE1',
+166 verbose headers   vary: 'Accept-Encoding, Accept' }
+167 silly get cb [ 200,
+167 silly get   { 'content-type': 'application/json; charset=UTF-8',
+167 silly get     server: 'UploadServer',
+167 silly get     'cache-control': 'max-age=300',
+167 silly get     'last-modified': 'Wed, 29 Nov 2017 21:31:25 GMT',
+167 silly get     etag: '"5a1f272d-20f6a"',
+167 silly get     'content-length': '135018',
+167 silly get     'accept-ranges': 'bytes',
+167 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+167 silly get     via: '1.1 varnish',
+167 silly get     age: '1121',
+167 silly get     connection: 'keep-alive',
+167 silly get     'x-served-by': 'cache-bur17520-BUR',
+167 silly get     'x-cache': 'HIT',
+167 silly get     'x-cache-hits': '1',
+167 silly get     'x-timer': 'S1512621954.280454,VS0,VE1',
+167 silly get     vary: 'Accept-Encoding, Accept' } ]
+168 verbose get saving express-session to /Users/williamcox/.npm/registry.npmjs.org/express-session/.cache.json
+169 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+170 http 200 https://registry.npmjs.org/react-dom
+171 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+171 verbose headers   server: 'UploadServer',
+171 verbose headers   'cache-control': 'max-age=300',
+171 verbose headers   'last-modified': 'Tue, 5 Dec 2017 11:26:48 GMT',
+171 verbose headers   etag: '"5a268278-21747"',
+171 verbose headers   'content-length': '137031',
+171 verbose headers   'accept-ranges': 'bytes',
+171 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+171 verbose headers   via: '1.1 varnish',
+171 verbose headers   age: '549',
+171 verbose headers   connection: 'keep-alive',
+171 verbose headers   'x-served-by': 'cache-bur17521-BUR',
+171 verbose headers   'x-cache': 'HIT',
+171 verbose headers   'x-cache-hits': '1',
+171 verbose headers   'x-timer': 'S1512621954.281307,VS0,VE1',
+171 verbose headers   vary: 'Accept-Encoding, Accept' }
+172 silly get cb [ 200,
+172 silly get   { 'content-type': 'application/json; charset=UTF-8',
+172 silly get     server: 'UploadServer',
+172 silly get     'cache-control': 'max-age=300',
+172 silly get     'last-modified': 'Tue, 5 Dec 2017 11:26:48 GMT',
+172 silly get     etag: '"5a268278-21747"',
+172 silly get     'content-length': '137031',
+172 silly get     'accept-ranges': 'bytes',
+172 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+172 silly get     via: '1.1 varnish',
+172 silly get     age: '549',
+172 silly get     connection: 'keep-alive',
+172 silly get     'x-served-by': 'cache-bur17521-BUR',
+172 silly get     'x-cache': 'HIT',
+172 silly get     'x-cache-hits': '1',
+172 silly get     'x-timer': 'S1512621954.281307,VS0,VE1',
+172 silly get     vary: 'Accept-Encoding, Accept' } ]
+173 verbose get saving react-dom to /Users/williamcox/.npm/registry.npmjs.org/react-dom/.cache.json
+174 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+175 http 200 https://registry.npmjs.org/react
+176 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+176 verbose headers   server: 'UploadServer',
+176 verbose headers   'cache-control': 'max-age=300',
+176 verbose headers   'last-modified': 'Wed, 6 Dec 2017 0:45:43 GMT',
+176 verbose headers   etag: '"5a273db7-32af6"',
+176 verbose headers   'content-length': '207606',
+176 verbose headers   'accept-ranges': 'bytes',
+176 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+176 verbose headers   via: '1.1 varnish',
+176 verbose headers   age: '1723',
+176 verbose headers   connection: 'keep-alive',
+176 verbose headers   'x-served-by': 'cache-bur17546-BUR',
+176 verbose headers   'x-cache': 'HIT',
+176 verbose headers   'x-cache-hits': '1',
+176 verbose headers   'x-timer': 'S1512621954.281241,VS0,VE1',
+176 verbose headers   vary: 'Accept-Encoding, Accept' }
+177 silly get cb [ 200,
+177 silly get   { 'content-type': 'application/json; charset=UTF-8',
+177 silly get     server: 'UploadServer',
+177 silly get     'cache-control': 'max-age=300',
+177 silly get     'last-modified': 'Wed, 6 Dec 2017 0:45:43 GMT',
+177 silly get     etag: '"5a273db7-32af6"',
+177 silly get     'content-length': '207606',
+177 silly get     'accept-ranges': 'bytes',
+177 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+177 silly get     via: '1.1 varnish',
+177 silly get     age: '1723',
+177 silly get     connection: 'keep-alive',
+177 silly get     'x-served-by': 'cache-bur17546-BUR',
+177 silly get     'x-cache': 'HIT',
+177 silly get     'x-cache-hits': '1',
+177 silly get     'x-timer': 'S1512621954.281241,VS0,VE1',
+177 silly get     vary: 'Accept-Encoding, Accept' } ]
+178 verbose get saving react to /Users/williamcox/.npm/registry.npmjs.org/react/.cache.json
+179 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+180 http 200 https://registry.npmjs.org/body-parser
+181 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+181 verbose headers   server: 'UploadServer',
+181 verbose headers   'cache-control': 'max-age=300',
+181 verbose headers   'last-modified': 'Tue, 5 Dec 2017 15:02:07 GMT',
+181 verbose headers   etag: '"5a26b4ef-233ab"',
+181 verbose headers   'content-length': '144299',
+181 verbose headers   'accept-ranges': 'bytes',
+181 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+181 verbose headers   via: '1.1 varnish',
+181 verbose headers   age: '1488',
+181 verbose headers   connection: 'keep-alive',
+181 verbose headers   'x-served-by': 'cache-bur17528-BUR',
+181 verbose headers   'x-cache': 'HIT',
+181 verbose headers   'x-cache-hits': '2',
+181 verbose headers   'x-timer': 'S1512621954.280492,VS0,VE0',
+181 verbose headers   vary: 'Accept-Encoding, Accept' }
+182 silly get cb [ 200,
+182 silly get   { 'content-type': 'application/json; charset=UTF-8',
+182 silly get     server: 'UploadServer',
+182 silly get     'cache-control': 'max-age=300',
+182 silly get     'last-modified': 'Tue, 5 Dec 2017 15:02:07 GMT',
+182 silly get     etag: '"5a26b4ef-233ab"',
+182 silly get     'content-length': '144299',
+182 silly get     'accept-ranges': 'bytes',
+182 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+182 silly get     via: '1.1 varnish',
+182 silly get     age: '1488',
+182 silly get     connection: 'keep-alive',
+182 silly get     'x-served-by': 'cache-bur17528-BUR',
+182 silly get     'x-cache': 'HIT',
+182 silly get     'x-cache-hits': '2',
+182 silly get     'x-timer': 'S1512621954.280492,VS0,VE0',
+182 silly get     vary: 'Accept-Encoding, Accept' } ]
+183 verbose get saving body-parser to /Users/williamcox/.npm/registry.npmjs.org/body-parser/.cache.json
+184 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+185 silly resolveWithNewModule express-session@1.15.6 checking installable status
+186 silly cache add args [ 'express-session@^1.15.1', null ]
+187 verbose cache add spec express-session@^1.15.1
+188 silly cache add parsed spec Result {
+188 silly cache add   raw: 'express-session@^1.15.1',
+188 silly cache add   scope: null,
+188 silly cache add   escapedName: 'express-session',
+188 silly cache add   name: 'express-session',
+188 silly cache add   rawSpec: '^1.15.1',
+188 silly cache add   spec: '>=1.15.1 <2.0.0',
+188 silly cache add   type: 'range' }
+189 silly addNamed express-session@>=1.15.1 <2.0.0
+190 verbose addNamed ">=1.15.1 <2.0.0" is a valid semver range for express-session
+191 silly addNameRange { name: 'express-session',
+191 silly addNameRange   range: '>=1.15.1 <2.0.0',
+191 silly addNameRange   hasData: false }
+192 silly mapToRegistry name express-session
+193 silly mapToRegistry using default registry
+194 silly mapToRegistry registry https://registry.npmjs.org/
+195 silly mapToRegistry data Result {
+195 silly mapToRegistry   raw: 'express-session',
+195 silly mapToRegistry   scope: null,
+195 silly mapToRegistry   escapedName: 'express-session',
+195 silly mapToRegistry   name: 'express-session',
+195 silly mapToRegistry   rawSpec: '',
+195 silly mapToRegistry   spec: 'latest',
+195 silly mapToRegistry   type: 'tag' }
+196 silly mapToRegistry uri https://registry.npmjs.org/express-session
+197 verbose addNameRange registry:https://registry.npmjs.org/express-session not in flight; fetching
+198 silly resolveWithNewModule react@15.6.2 checking installable status
+199 silly cache add args [ 'react@^15.5.4', null ]
+200 verbose cache add spec react@^15.5.4
+201 silly cache add parsed spec Result {
+201 silly cache add   raw: 'react@^15.5.4',
+201 silly cache add   scope: null,
+201 silly cache add   escapedName: 'react',
+201 silly cache add   name: 'react',
+201 silly cache add   rawSpec: '^15.5.4',
+201 silly cache add   spec: '>=15.5.4 <16.0.0',
+201 silly cache add   type: 'range' }
+202 silly addNamed react@>=15.5.4 <16.0.0
+203 verbose addNamed ">=15.5.4 <16.0.0" is a valid semver range for react
+204 silly addNameRange { name: 'react', range: '>=15.5.4 <16.0.0', hasData: false }
+205 silly mapToRegistry name react
+206 silly mapToRegistry using default registry
+207 silly mapToRegistry registry https://registry.npmjs.org/
+208 silly mapToRegistry data Result {
+208 silly mapToRegistry   raw: 'react',
+208 silly mapToRegistry   scope: null,
+208 silly mapToRegistry   escapedName: 'react',
+208 silly mapToRegistry   name: 'react',
+208 silly mapToRegistry   rawSpec: '',
+208 silly mapToRegistry   spec: 'latest',
+208 silly mapToRegistry   type: 'tag' }
+209 silly mapToRegistry uri https://registry.npmjs.org/react
+210 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+211 http 200 https://registry.npmjs.org/react-redux
+212 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+212 verbose headers   server: 'UploadServer',
+212 verbose headers   'cache-control': 'max-age=300',
+212 verbose headers   'last-modified': 'Wed, 6 Dec 2017 16:39:02 GMT',
+212 verbose headers   etag: '"5a281d26-2ed33"',
+212 verbose headers   'content-length': '191795',
+212 verbose headers   'accept-ranges': 'bytes',
+212 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+212 verbose headers   via: '1.1 varnish',
+212 verbose headers   age: '2934',
+212 verbose headers   connection: 'keep-alive',
+212 verbose headers   'x-served-by': 'cache-bur17547-BUR',
+212 verbose headers   'x-cache': 'HIT',
+212 verbose headers   'x-cache-hits': '1',
+212 verbose headers   'x-timer': 'S1512621954.286747,VS0,VE1',
+212 verbose headers   vary: 'Accept-Encoding, Accept' }
+213 silly get cb [ 200,
+213 silly get   { 'content-type': 'application/json; charset=UTF-8',
+213 silly get     server: 'UploadServer',
+213 silly get     'cache-control': 'max-age=300',
+213 silly get     'last-modified': 'Wed, 6 Dec 2017 16:39:02 GMT',
+213 silly get     etag: '"5a281d26-2ed33"',
+213 silly get     'content-length': '191795',
+213 silly get     'accept-ranges': 'bytes',
+213 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+213 silly get     via: '1.1 varnish',
+213 silly get     age: '2934',
+213 silly get     connection: 'keep-alive',
+213 silly get     'x-served-by': 'cache-bur17547-BUR',
+213 silly get     'x-cache': 'HIT',
+213 silly get     'x-cache-hits': '1',
+213 silly get     'x-timer': 'S1512621954.286747,VS0,VE1',
+213 silly get     vary: 'Accept-Encoding, Accept' } ]
+214 verbose get saving react-redux to /Users/williamcox/.npm/registry.npmjs.org/react-redux/.cache.json
+215 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+216 http 200 https://registry.npmjs.org/react-router
+217 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+217 verbose headers   server: 'UploadServer',
+217 verbose headers   'cache-control': 'max-age=300',
+217 verbose headers   'last-modified': 'Tue, 5 Dec 2017 16:19:06 GMT',
+217 verbose headers   etag: '"5a26c6fa-444f3"',
+217 verbose headers   'content-length': '279795',
+217 verbose headers   'accept-ranges': 'bytes',
+217 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+217 verbose headers   via: '1.1 varnish',
+217 verbose headers   age: '1528',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'x-served-by': 'cache-bur17543-BUR',
+217 verbose headers   'x-cache': 'HIT',
+217 verbose headers   'x-cache-hits': '1',
+217 verbose headers   'x-timer': 'S1512621954.283448,VS0,VE1',
+217 verbose headers   vary: 'Accept-Encoding, Accept' }
+218 silly get cb [ 200,
+218 silly get   { 'content-type': 'application/json; charset=UTF-8',
+218 silly get     server: 'UploadServer',
+218 silly get     'cache-control': 'max-age=300',
+218 silly get     'last-modified': 'Tue, 5 Dec 2017 16:19:06 GMT',
+218 silly get     etag: '"5a26c6fa-444f3"',
+218 silly get     'content-length': '279795',
+218 silly get     'accept-ranges': 'bytes',
+218 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+218 silly get     via: '1.1 varnish',
+218 silly get     age: '1528',
+218 silly get     connection: 'keep-alive',
+218 silly get     'x-served-by': 'cache-bur17543-BUR',
+218 silly get     'x-cache': 'HIT',
+218 silly get     'x-cache-hits': '1',
+218 silly get     'x-timer': 'S1512621954.283448,VS0,VE1',
+218 silly get     vary: 'Accept-Encoding, Accept' } ]
+219 verbose get saving react-router to /Users/williamcox/.npm/registry.npmjs.org/react-router/.cache.json
+220 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+221 silly resolveWithNewModule body-parser@1.18.2 checking installable status
+222 silly cache add args [ 'body-parser@^1.16.1', null ]
+223 verbose cache add spec body-parser@^1.16.1
+224 silly cache add parsed spec Result {
+224 silly cache add   raw: 'body-parser@^1.16.1',
+224 silly cache add   scope: null,
+224 silly cache add   escapedName: 'body-parser',
+224 silly cache add   name: 'body-parser',
+224 silly cache add   rawSpec: '^1.16.1',
+224 silly cache add   spec: '>=1.16.1 <2.0.0',
+224 silly cache add   type: 'range' }
+225 silly addNamed body-parser@>=1.16.1 <2.0.0
+226 verbose addNamed ">=1.16.1 <2.0.0" is a valid semver range for body-parser
+227 silly addNameRange { name: 'body-parser', range: '>=1.16.1 <2.0.0', hasData: false }
+228 silly mapToRegistry name body-parser
+229 silly mapToRegistry using default registry
+230 silly mapToRegistry registry https://registry.npmjs.org/
+231 silly mapToRegistry data Result {
+231 silly mapToRegistry   raw: 'body-parser',
+231 silly mapToRegistry   scope: null,
+231 silly mapToRegistry   escapedName: 'body-parser',
+231 silly mapToRegistry   name: 'body-parser',
+231 silly mapToRegistry   rawSpec: '',
+231 silly mapToRegistry   spec: 'latest',
+231 silly mapToRegistry   type: 'tag' }
+232 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+233 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+234 silly resolveWithNewModule react-dom@15.6.2 checking installable status
+235 silly cache add args [ 'react-dom@^15.5.4', null ]
+236 verbose cache add spec react-dom@^15.5.4
+237 silly cache add parsed spec Result {
+237 silly cache add   raw: 'react-dom@^15.5.4',
+237 silly cache add   scope: null,
+237 silly cache add   escapedName: 'react-dom',
+237 silly cache add   name: 'react-dom',
+237 silly cache add   rawSpec: '^15.5.4',
+237 silly cache add   spec: '>=15.5.4 <16.0.0',
+237 silly cache add   type: 'range' }
+238 silly addNamed react-dom@>=15.5.4 <16.0.0
+239 verbose addNamed ">=15.5.4 <16.0.0" is a valid semver range for react-dom
+240 silly addNameRange { name: 'react-dom', range: '>=15.5.4 <16.0.0', hasData: false }
+241 silly mapToRegistry name react-dom
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry data Result {
+244 silly mapToRegistry   raw: 'react-dom',
+244 silly mapToRegistry   scope: null,
+244 silly mapToRegistry   escapedName: 'react-dom',
+244 silly mapToRegistry   name: 'react-dom',
+244 silly mapToRegistry   rawSpec: '',
+244 silly mapToRegistry   spec: 'latest',
+244 silly mapToRegistry   type: 'tag' }
+245 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+246 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+247 verbose get https://registry.npmjs.org/express-session not expired, no request
+248 silly addNameRange number 2 { name: 'express-session',
+248 silly addNameRange   range: '>=1.15.1 <2.0.0',
+248 silly addNameRange   hasData: true }
+249 silly addNameRange versions [ 'express-session',
+249 silly addNameRange   [ '1.0.0',
+249 silly addNameRange     '1.0.1',
+249 silly addNameRange     '1.0.2',
+249 silly addNameRange     '1.0.3',
+249 silly addNameRange     '1.0.4',
+249 silly addNameRange     '1.1.0',
+249 silly addNameRange     '1.2.0',
+249 silly addNameRange     '1.2.1',
+249 silly addNameRange     '1.3.0',
+249 silly addNameRange     '1.3.1',
+249 silly addNameRange     '1.4.0',
+249 silly addNameRange     '1.5.0',
+249 silly addNameRange     '1.5.1',
+249 silly addNameRange     '1.5.2',
+249 silly addNameRange     '1.6.0',
+249 silly addNameRange     '1.6.1',
+249 silly addNameRange     '1.6.2',
+249 silly addNameRange     '1.6.3',
+249 silly addNameRange     '1.6.4',
+249 silly addNameRange     '1.6.5',
+249 silly addNameRange     '1.7.0',
+249 silly addNameRange     '1.7.1',
+249 silly addNameRange     '1.7.2',
+249 silly addNameRange     '1.7.3',
+249 silly addNameRange     '1.7.4',
+249 silly addNameRange     '1.7.5',
+249 silly addNameRange     '1.7.6',
+249 silly addNameRange     '1.8.0',
+249 silly addNameRange     '1.8.1',
+249 silly addNameRange     '1.8.2',
+249 silly addNameRange     '1.9.0',
+249 silly addNameRange     '1.9.1',
+249 silly addNameRange     '1.9.2',
+249 silly addNameRange     '1.9.3',
+249 silly addNameRange     '1.10.0',
+249 silly addNameRange     '1.10.1',
+249 silly addNameRange     '1.10.2',
+249 silly addNameRange     '1.10.3',
+249 silly addNameRange     '1.10.4',
+249 silly addNameRange     '1.11.0',
+249 silly addNameRange     '1.11.1',
+249 silly addNameRange     '1.11.2',
+249 silly addNameRange     '1.11.3',
+249 silly addNameRange     '1.12.0',
+249 silly addNameRange     '1.12.1',
+249 silly addNameRange     '1.13.0',
+249 silly addNameRange     '1.14.0',
+249 silly addNameRange     '1.14.1',
+249 silly addNameRange     '1.14.2',
+249 silly addNameRange     '1.15.0',
+249 silly addNameRange     '1.15.1',
+249 silly addNameRange     '1.15.2',
+249 silly addNameRange     '1.15.3',
+249 silly addNameRange     '1.15.4',
+249 silly addNameRange     '1.15.5',
+249 silly addNameRange     '1.15.6' ] ]
+250 silly addNamed express-session@1.15.6
+251 verbose addNamed "1.15.6" is a plain semver version for express-session
+252 verbose get https://registry.npmjs.org/react not expired, no request
+253 silly addNameRange number 2 { name: 'react', range: '>=15.5.4 <16.0.0', hasData: true }
+254 silly addNameRange versions [ 'react',
+254 silly addNameRange   [ '0.0.1',
+254 silly addNameRange     '0.0.2',
+254 silly addNameRange     '0.0.3',
+254 silly addNameRange     '0.1.2',
+254 silly addNameRange     '0.2.0',
+254 silly addNameRange     '0.2.1',
+254 silly addNameRange     '0.2.2',
+254 silly addNameRange     '0.2.3',
+254 silly addNameRange     '0.2.4',
+254 silly addNameRange     '0.2.5',
+254 silly addNameRange     '0.2.6',
+254 silly addNameRange     '0.3.0',
+254 silly addNameRange     '0.3.4',
+254 silly addNameRange     '0.3.5',
+254 silly addNameRange     '0.5.0',
+254 silly addNameRange     '0.5.1',
+254 silly addNameRange     '0.5.2',
+254 silly addNameRange     '0.6.0',
+254 silly addNameRange     '0.6.1',
+254 silly addNameRange     '0.6.2',
+254 silly addNameRange     '0.6.3',
+254 silly addNameRange     '0.7.0',
+254 silly addNameRange     '0.7.1',
+254 silly addNameRange     '0.8.0',
+254 silly addNameRange     '0.9.0-rc1',
+254 silly addNameRange     '0.9.0',
+254 silly addNameRange     '0.10.0-rc1',
+254 silly addNameRange     '0.10.0',
+254 silly addNameRange     '0.11.0-rc1',
+254 silly addNameRange     '0.11.0',
+254 silly addNameRange     '0.11.1',
+254 silly addNameRange     '0.11.2',
+254 silly addNameRange     '0.12.0-rc1',
+254 silly addNameRange     '0.12.0',
+254 silly addNameRange     '0.12.1',
+254 silly addNameRange     '0.12.2',
+254 silly addNameRange     '0.13.0-alpha.1',
+254 silly addNameRange     '0.13.0-alpha.2',
+254 silly addNameRange     '0.13.0-beta.1',
+254 silly addNameRange     '0.13.0-beta.2',
+254 silly addNameRange     '0.13.0-rc1',
+254 silly addNameRange     '0.13.0-rc2',
+254 silly addNameRange     '0.13.0',
+254 silly addNameRange     '0.13.1',
+254 silly addNameRange     '0.13.2',
+254 silly addNameRange     '0.13.3',
+254 silly addNameRange     '0.14.0-alpha1',
+254 silly addNameRange     '0.14.0-alpha2',
+254 silly addNameRange     '0.14.0-alpha3',
+254 silly addNameRange     '0.14.0-beta1',
+254 silly addNameRange     '0.14.0-beta2',
+254 silly addNameRange     '0.14.0-beta3',
+254 silly addNameRange     '0.14.0-rc1',
+254 silly addNameRange     '0.14.0',
+254 silly addNameRange     '0.14.1',
+254 silly addNameRange     '0.14.2',
+254 silly addNameRange     '0.14.3',
+254 silly addNameRange     '0.14.4',
+254 silly addNameRange     '0.14.5',
+254 silly addNameRange     '0.14.6',
+254 silly addNameRange     '0.15.0-alpha.1',
+254 silly addNameRange     '0.14.7',
+254 silly addNameRange     '15.0.0-rc.1',
+254 silly addNameRange     '15.0.0-rc.2',
+254 silly addNameRange     '0.14.8',
+254 silly addNameRange     '15.0.0',
+254 silly addNameRange     '15.0.1',
+254 silly addNameRange     '15.0.2-alpha.1',
+254 silly addNameRange     '15.0.2-alpha.2',
+254 silly addNameRange     '15.0.2-alpha.3',
+254 silly addNameRange     '15.0.2-alpha.4',
+254 silly addNameRange     '15.0.2',
+254 silly addNameRange     '15.0.3-alpha.1',
+254 silly addNameRange     '15.0.3-alpha.2',
+254 silly addNameRange     '15.1.0-alpha.1',
+254 silly addNameRange     '15.1.0',
+254 silly addNameRange     '15.2.0-rc.1',
+254 silly addNameRange     '15.2.0-rc.2',
+254 silly addNameRange     '15.2.0',
+254 silly addNameRange     '15.2.1',
+254 silly addNameRange     '15.3.0-rc.1',
+254 silly addNameRange     '15.3.0-rc.2',
+254 silly addNameRange     '15.3.0-rc.3',
+254 silly addNameRange     '15.3.0',
+254 silly addNameRange     '15.3.1-rc.1',
+254 silly addNameRange     '15.3.1-rc.2',
+254 silly addNameRange     '15.3.1',
+254 silly addNameRange     '15.3.2-rc.1',
+254 silly addNameRange     '15.3.2',
+254 silly addNameRange     '15.4.0-rc.1',
+254 silly addNameRange     '15.4.0-rc.2',
+254 silly addNameRange     '15.4.0-rc.3',
+254 silly addNameRange     '15.4.0-rc.4',
+254 silly addNameRange     '15.4.0',
+254 silly addNameRange     '15.4.1',
+254 silly addNameRange     '15.4.2',
+254 silly addNameRange     '16.0.0-alpha',
+254 silly addNameRange     '16.0.0-alpha.0',
+254 silly addNameRange     '16.0.0-alpha.2',
+254 silly addNameRange     '16.0.0-alpha.3',
+254 silly addNameRange     ... 37 more items ] ]
+255 silly addNamed react@15.6.2
+256 verbose addNamed "15.6.2" is a plain semver version for react
+257 verbose get https://registry.npmjs.org/react-dom not expired, no request
+258 silly addNameRange number 2 { name: 'react-dom', range: '>=15.5.4 <16.0.0', hasData: true }
+259 silly addNameRange versions [ 'react-dom',
+259 silly addNameRange   [ '0.1.0',
+259 silly addNameRange     '0.14.0-beta1',
+259 silly addNameRange     '0.14.0-beta2',
+259 silly addNameRange     '0.14.0-beta3',
+259 silly addNameRange     '0.14.0-rc1',
+259 silly addNameRange     '0.14.0',
+259 silly addNameRange     '0.14.1',
+259 silly addNameRange     '0.14.2',
+259 silly addNameRange     '0.14.3',
+259 silly addNameRange     '0.14.4',
+259 silly addNameRange     '0.14.5',
+259 silly addNameRange     '0.14.6',
+259 silly addNameRange     '0.15.0-alpha.1',
+259 silly addNameRange     '0.14.7',
+259 silly addNameRange     '15.0.0-rc.1',
+259 silly addNameRange     '15.0.0-rc.2',
+259 silly addNameRange     '0.14.8',
+259 silly addNameRange     '15.0.0',
+259 silly addNameRange     '15.0.1',
+259 silly addNameRange     '15.0.2-alpha.1',
+259 silly addNameRange     '15.0.2-alpha.2',
+259 silly addNameRange     '15.0.2-alpha.3',
+259 silly addNameRange     '15.0.2-alpha.4',
+259 silly addNameRange     '15.0.2',
+259 silly addNameRange     '15.0.3-alpha.1',
+259 silly addNameRange     '15.0.3-alpha.2',
+259 silly addNameRange     '15.1.0-alpha.1',
+259 silly addNameRange     '15.1.0',
+259 silly addNameRange     '15.2.0-rc.1',
+259 silly addNameRange     '15.2.0-rc.2',
+259 silly addNameRange     '15.2.0',
+259 silly addNameRange     '15.2.1',
+259 silly addNameRange     '15.3.0-rc.1',
+259 silly addNameRange     '15.3.0-rc.2',
+259 silly addNameRange     '15.3.0-rc.3',
+259 silly addNameRange     '15.3.0',
+259 silly addNameRange     '15.3.1-rc.1',
+259 silly addNameRange     '15.3.1-rc.2',
+259 silly addNameRange     '15.3.1',
+259 silly addNameRange     '15.3.2-rc.1',
+259 silly addNameRange     '15.3.2',
+259 silly addNameRange     '15.4.0-rc.1',
+259 silly addNameRange     '15.4.0-rc.2',
+259 silly addNameRange     '15.4.0-rc.3',
+259 silly addNameRange     '15.4.0-rc.4',
+259 silly addNameRange     '15.4.0',
+259 silly addNameRange     '15.4.1',
+259 silly addNameRange     '15.4.2',
+259 silly addNameRange     '16.0.0-alpha',
+259 silly addNameRange     '16.0.0-alpha.0',
+259 silly addNameRange     '16.0.0-alpha.2',
+259 silly addNameRange     '16.0.0-alpha.3',
+259 silly addNameRange     '16.0.0-alpha.4',
+259 silly addNameRange     '16.0.0-alpha.5',
+259 silly addNameRange     '16.0.0-alpha.6',
+259 silly addNameRange     '15.5.0-rc.1',
+259 silly addNameRange     '16.0.0-alpha.7',
+259 silly addNameRange     '15.5.0-rc.2',
+259 silly addNameRange     '16.0.0-alpha.8',
+259 silly addNameRange     '15.5.0',
+259 silly addNameRange     '15.5.1',
+259 silly addNameRange     '15.5.2',
+259 silly addNameRange     '15.5.3',
+259 silly addNameRange     '15.5.4',
+259 silly addNameRange     '16.0.0-alpha.9',
+259 silly addNameRange     '0.14.9',
+259 silly addNameRange     '16.0.0-alpha.10',
+259 silly addNameRange     '16.0.0-alpha.11',
+259 silly addNameRange     '16.0.0-alpha.12',
+259 silly addNameRange     '15.6.0-rc.1',
+259 silly addNameRange     '16.0.0-alpha.13',
+259 silly addNameRange     '15.6.0',
+259 silly addNameRange     '15.6.1',
+259 silly addNameRange     '16.0.0-beta.1',
+259 silly addNameRange     '16.0.0-beta.2',
+259 silly addNameRange     '16.0.0-beta.3',
+259 silly addNameRange     '16.0.0-beta.4',
+259 silly addNameRange     '16.0.0-beta.5',
+259 silly addNameRange     '16.0.0-rc.1',
+259 silly addNameRange     '16.0.0-rc.2',
+259 silly addNameRange     '16.0.0-rc.3',
+259 silly addNameRange     '15.6.2',
+259 silly addNameRange     '16.0.0',
+259 silly addNameRange     '16.1.0-beta',
+259 silly addNameRange     '16.1.0-beta.1',
+259 silly addNameRange     '16.1.0-rc',
+259 silly addNameRange     '16.1.0',
+259 silly addNameRange     '16.1.1',
+259 silly addNameRange     '16.2.0' ] ]
+260 silly addNamed react-dom@15.6.2
+261 verbose addNamed "15.6.2" is a plain semver version for react-dom
+262 verbose get https://registry.npmjs.org/body-parser not expired, no request
+263 silly addNameRange number 2 { name: 'body-parser', range: '>=1.16.1 <2.0.0', hasData: true }
+264 silly addNameRange versions [ 'body-parser',
+264 silly addNameRange   [ '1.0.0',
+264 silly addNameRange     '1.0.1',
+264 silly addNameRange     '1.0.2',
+264 silly addNameRange     '1.1.0',
+264 silly addNameRange     '1.1.1',
+264 silly addNameRange     '1.1.2',
+264 silly addNameRange     '1.2.0',
+264 silly addNameRange     '1.2.1',
+264 silly addNameRange     '1.2.2',
+264 silly addNameRange     '1.3.0',
+264 silly addNameRange     '1.3.1',
+264 silly addNameRange     '1.4.0',
+264 silly addNameRange     '1.4.1',
+264 silly addNameRange     '1.4.2',
+264 silly addNameRange     '1.4.3',
+264 silly addNameRange     '1.5.0',
+264 silly addNameRange     '1.5.1',
+264 silly addNameRange     '1.5.2',
+264 silly addNameRange     '1.6.0',
+264 silly addNameRange     '1.6.1',
+264 silly addNameRange     '1.6.2',
+264 silly addNameRange     '1.6.3',
+264 silly addNameRange     '1.6.4',
+264 silly addNameRange     '1.6.5',
+264 silly addNameRange     '1.6.6',
+264 silly addNameRange     '1.6.7',
+264 silly addNameRange     '1.7.0',
+264 silly addNameRange     '1.8.0',
+264 silly addNameRange     '1.8.1',
+264 silly addNameRange     '1.8.2',
+264 silly addNameRange     '1.8.3',
+264 silly addNameRange     '1.8.4',
+264 silly addNameRange     '1.9.0',
+264 silly addNameRange     '1.9.1',
+264 silly addNameRange     '1.9.2',
+264 silly addNameRange     '1.9.3',
+264 silly addNameRange     '1.10.0',
+264 silly addNameRange     '1.10.1',
+264 silly addNameRange     '1.10.2',
+264 silly addNameRange     '1.11.0',
+264 silly addNameRange     '1.12.0',
+264 silly addNameRange     '1.12.1',
+264 silly addNameRange     '1.12.2',
+264 silly addNameRange     '1.12.3',
+264 silly addNameRange     '1.12.4',
+264 silly addNameRange     '1.13.0',
+264 silly addNameRange     '1.13.1',
+264 silly addNameRange     '1.13.2',
+264 silly addNameRange     '1.13.3',
+264 silly addNameRange     '1.14.0',
+264 silly addNameRange     '1.14.1',
+264 silly addNameRange     '1.14.2',
+264 silly addNameRange     '1.15.0',
+264 silly addNameRange     '1.15.1',
+264 silly addNameRange     '1.15.2',
+264 silly addNameRange     '1.16.0',
+264 silly addNameRange     '1.16.1',
+264 silly addNameRange     '1.17.0',
+264 silly addNameRange     '1.17.1',
+264 silly addNameRange     '1.17.2',
+264 silly addNameRange     '1.18.0',
+264 silly addNameRange     '1.18.1',
+264 silly addNameRange     '1.18.2' ] ]
+265 silly addNamed body-parser@1.18.2
+266 verbose addNamed "1.18.2" is a plain semver version for body-parser
+267 silly cache afterAdd react-dom@15.6.2
+268 verbose afterAdd /Users/williamcox/.npm/react-dom/15.6.2/package/package.json not in flight; writing
+269 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+270 silly cache afterAdd react@15.6.2
+271 verbose afterAdd /Users/williamcox/.npm/react/15.6.2/package/package.json not in flight; writing
+272 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+273 silly cache afterAdd express-session@1.15.6
+274 verbose afterAdd /Users/williamcox/.npm/express-session/1.15.6/package/package.json not in flight; writing
+275 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+276 silly cache afterAdd body-parser@1.18.2
+277 verbose afterAdd /Users/williamcox/.npm/body-parser/1.18.2/package/package.json not in flight; writing
+278 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+279 silly resolveWithNewModule react-redux@4.4.8 checking installable status
+280 silly cache add args [ 'react-redux@^4.4.6', null ]
+281 verbose cache add spec react-redux@^4.4.6
+282 silly cache add parsed spec Result {
+282 silly cache add   raw: 'react-redux@^4.4.6',
+282 silly cache add   scope: null,
+282 silly cache add   escapedName: 'react-redux',
+282 silly cache add   name: 'react-redux',
+282 silly cache add   rawSpec: '^4.4.6',
+282 silly cache add   spec: '>=4.4.6 <5.0.0',
+282 silly cache add   type: 'range' }
+283 silly addNamed react-redux@>=4.4.6 <5.0.0
+284 verbose addNamed ">=4.4.6 <5.0.0" is a valid semver range for react-redux
+285 silly addNameRange { name: 'react-redux', range: '>=4.4.6 <5.0.0', hasData: false }
+286 silly mapToRegistry name react-redux
+287 silly mapToRegistry using default registry
+288 silly mapToRegistry registry https://registry.npmjs.org/
+289 silly mapToRegistry data Result {
+289 silly mapToRegistry   raw: 'react-redux',
+289 silly mapToRegistry   scope: null,
+289 silly mapToRegistry   escapedName: 'react-redux',
+289 silly mapToRegistry   name: 'react-redux',
+289 silly mapToRegistry   rawSpec: '',
+289 silly mapToRegistry   spec: 'latest',
+289 silly mapToRegistry   type: 'tag' }
+290 silly mapToRegistry uri https://registry.npmjs.org/react-redux
+291 verbose addNameRange registry:https://registry.npmjs.org/react-redux not in flight; fetching
+292 silly resolveWithNewModule react-router@3.2.0 checking installable status
+293 silly cache add args [ 'react-router@^3.0.2', null ]
+294 verbose cache add spec react-router@^3.0.2
+295 silly cache add parsed spec Result {
+295 silly cache add   raw: 'react-router@^3.0.2',
+295 silly cache add   scope: null,
+295 silly cache add   escapedName: 'react-router',
+295 silly cache add   name: 'react-router',
+295 silly cache add   rawSpec: '^3.0.2',
+295 silly cache add   spec: '>=3.0.2 <4.0.0',
+295 silly cache add   type: 'range' }
+296 silly addNamed react-router@>=3.0.2 <4.0.0
+297 verbose addNamed ">=3.0.2 <4.0.0" is a valid semver range for react-router
+298 silly addNameRange { name: 'react-router', range: '>=3.0.2 <4.0.0', hasData: false }
+299 silly mapToRegistry name react-router
+300 silly mapToRegistry using default registry
+301 silly mapToRegistry registry https://registry.npmjs.org/
+302 silly mapToRegistry data Result {
+302 silly mapToRegistry   raw: 'react-router',
+302 silly mapToRegistry   scope: null,
+302 silly mapToRegistry   escapedName: 'react-router',
+302 silly mapToRegistry   name: 'react-router',
+302 silly mapToRegistry   rawSpec: '',
+302 silly mapToRegistry   spec: 'latest',
+302 silly mapToRegistry   type: 'tag' }
+303 silly mapToRegistry uri https://registry.npmjs.org/react-router
+304 verbose addNameRange registry:https://registry.npmjs.org/react-router not in flight; fetching
+305 verbose get https://registry.npmjs.org/react-redux not expired, no request
+306 silly addNameRange number 2 { name: 'react-redux', range: '>=4.4.6 <5.0.0', hasData: true }
+307 silly addNameRange versions [ 'react-redux',
+307 silly addNameRange   [ '0.1.0',
+307 silly addNameRange     '1.0.0-alpha',
+307 silly addNameRange     '0.2.0',
+307 silly addNameRange     '0.2.1',
+307 silly addNameRange     '0.2.2',
+307 silly addNameRange     '0.3.0',
+307 silly addNameRange     '0.4.0',
+307 silly addNameRange     '0.5.0',
+307 silly addNameRange     '0.5.1',
+307 silly addNameRange     '0.5.2',
+307 silly addNameRange     '0.5.3',
+307 silly addNameRange     '0.6.0',
+307 silly addNameRange     '0.7.0',
+307 silly addNameRange     '0.8.0',
+307 silly addNameRange     '0.8.1',
+307 silly addNameRange     '0.8.2',
+307 silly addNameRange     '0.9.0',
+307 silly addNameRange     '1.0.0',
+307 silly addNameRange     '1.0.1',
+307 silly addNameRange     '2.0.0',
+307 silly addNameRange     '2.1.0',
+307 silly addNameRange     '2.1.1',
+307 silly addNameRange     '2.1.2',
+307 silly addNameRange     '3.0.0-alpha',
+307 silly addNameRange     '3.0.0',
+307 silly addNameRange     '3.0.1',
+307 silly addNameRange     '3.1.0',
+307 silly addNameRange     '4.0.0',
+307 silly addNameRange     '3.1.1',
+307 silly addNameRange     '4.0.1',
+307 silly addNameRange     '3.1.2',
+307 silly addNameRange     '4.0.2',
+307 silly addNameRange     '4.0.3',
+307 silly addNameRange     '4.0.4',
+307 silly addNameRange     '4.0.5',
+307 silly addNameRange     '4.0.6',
+307 silly addNameRange     '4.1.0',
+307 silly addNameRange     '4.1.1',
+307 silly addNameRange     '4.1.2',
+307 silly addNameRange     '4.2.0',
+307 silly addNameRange     '4.2.1',
+307 silly addNameRange     '4.3.0',
+307 silly addNameRange     '4.4.0',
+307 silly addNameRange     '4.4.1',
+307 silly addNameRange     '4.4.2',
+307 silly addNameRange     '4.4.3',
+307 silly addNameRange     '4.4.4',
+307 silly addNameRange     '4.4.5',
+307 silly addNameRange     '5.0.0-alpha.1',
+307 silly addNameRange     '5.0.0-beta.1',
+307 silly addNameRange     '5.0.0-beta.2',
+307 silly addNameRange     '5.0.0-beta.3',
+307 silly addNameRange     '4.4.6',
+307 silly addNameRange     '5.0.0-rc.1',
+307 silly addNameRange     '5.0.0-rc.2',
+307 silly addNameRange     '5.0.0',
+307 silly addNameRange     '5.0.1',
+307 silly addNameRange     '5.0.2',
+307 silly addNameRange     '5.0.3',
+307 silly addNameRange     '4.4.7',
+307 silly addNameRange     '5.0.4',
+307 silly addNameRange     '4.4.8',
+307 silly addNameRange     '5.0.5',
+307 silly addNameRange     '5.0.6' ] ]
+308 silly addNamed react-redux@4.4.8
+309 verbose addNamed "4.4.8" is a plain semver version for react-redux
+310 http 200 https://registry.npmjs.org/express
+311 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+311 verbose headers   server: 'UploadServer',
+311 verbose headers   'cache-control': 'max-age=300',
+311 verbose headers   'last-modified': 'Thu, 7 Dec 2017 4:35:53 GMT',
+311 verbose headers   etag: '"5a28c529-937c9"',
+311 verbose headers   'content-length': '604105',
+311 verbose headers   'accept-ranges': 'bytes',
+311 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+311 verbose headers   via: '1.1 varnish',
+311 verbose headers   age: '515',
+311 verbose headers   connection: 'keep-alive',
+311 verbose headers   'x-served-by': 'cache-bur17530-BUR',
+311 verbose headers   'x-cache': 'HIT',
+311 verbose headers   'x-cache-hits': '1',
+311 verbose headers   'x-timer': 'S1512621954.278658,VS0,VE1',
+311 verbose headers   vary: 'Accept-Encoding, Accept' }
+312 silly get cb [ 200,
+312 silly get   { 'content-type': 'application/json; charset=UTF-8',
+312 silly get     server: 'UploadServer',
+312 silly get     'cache-control': 'max-age=300',
+312 silly get     'last-modified': 'Thu, 7 Dec 2017 4:35:53 GMT',
+312 silly get     etag: '"5a28c529-937c9"',
+312 silly get     'content-length': '604105',
+312 silly get     'accept-ranges': 'bytes',
+312 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+312 silly get     via: '1.1 varnish',
+312 silly get     age: '515',
+312 silly get     connection: 'keep-alive',
+312 silly get     'x-served-by': 'cache-bur17530-BUR',
+312 silly get     'x-cache': 'HIT',
+312 silly get     'x-cache-hits': '1',
+312 silly get     'x-timer': 'S1512621954.278658,VS0,VE1',
+312 silly get     vary: 'Accept-Encoding, Accept' } ]
+313 verbose get saving express to /Users/williamcox/.npm/registry.npmjs.org/express/.cache.json
+314 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+315 verbose get https://registry.npmjs.org/react-router not expired, no request
+316 silly addNameRange number 2 { name: 'react-router', range: '>=3.0.2 <4.0.0', hasData: true }
+317 silly addNameRange versions [ 'react-router',
+317 silly addNameRange   [ '0.0.0',
+317 silly addNameRange     '0.0.1',
+317 silly addNameRange     '0.4.0',
+317 silly addNameRange     '0.4.1',
+317 silly addNameRange     '0.4.2',
+317 silly addNameRange     '0.5.0',
+317 silly addNameRange     '0.5.1',
+317 silly addNameRange     '0.5.2',
+317 silly addNameRange     '0.5.3',
+317 silly addNameRange     '0.6.0',
+317 silly addNameRange     '0.6.1',
+317 silly addNameRange     '0.7.0',
+317 silly addNameRange     '0.8.0',
+317 silly addNameRange     '0.9.0',
+317 silly addNameRange     '0.9.1',
+317 silly addNameRange     '0.9.2',
+317 silly addNameRange     '0.9.3',
+317 silly addNameRange     '0.9.4',
+317 silly addNameRange     '0.9.5',
+317 silly addNameRange     '0.10.0',
+317 silly addNameRange     '0.10.1',
+317 silly addNameRange     '0.10.2',
+317 silly addNameRange     '0.11.0',
+317 silly addNameRange     '0.11.1',
+317 silly addNameRange     '0.11.2',
+317 silly addNameRange     '0.11.3',
+317 silly addNameRange     '0.11.4',
+317 silly addNameRange     '0.11.5',
+317 silly addNameRange     '0.11.6',
+317 silly addNameRange     '0.12.0',
+317 silly addNameRange     '0.12.1',
+317 silly addNameRange     '0.12.2',
+317 silly addNameRange     '0.12.3',
+317 silly addNameRange     '0.12.4',
+317 silly addNameRange     '0.13.0',
+317 silly addNameRange     '0.13.1',
+317 silly addNameRange     '0.13.2',
+317 silly addNameRange     '0.13.3',
+317 silly addNameRange     '1.0.0-alpha1',
+317 silly addNameRange     '1.0.0-alpha2',
+317 silly addNameRange     '1.0.0-beta1',
+317 silly addNameRange     '1.0.0-beta2',
+317 silly addNameRange     '1.0.0-beta3',
+317 silly addNameRange     '1.0.0-beta4',
+317 silly addNameRange     '1.0.0-rc1',
+317 silly addNameRange     '0.13.4',
+317 silly addNameRange     '1.0.0-rc2',
+317 silly addNameRange     '1.0.0-rc3',
+317 silly addNameRange     '0.13.5',
+317 silly addNameRange     '1.0.0-rc4',
+317 silly addNameRange     '1.0.0',
+317 silly addNameRange     '1.0.1',
+317 silly addNameRange     '1.0.2',
+317 silly addNameRange     '1.0.3',
+317 silly addNameRange     '2.0.0-rc1',
+317 silly addNameRange     '2.0.0-rc2',
+317 silly addNameRange     '2.0.0-rc3',
+317 silly addNameRange     '2.0.0-rc4',
+317 silly addNameRange     '2.0.0-rc5',
+317 silly addNameRange     '2.0.0-rc6',
+317 silly addNameRange     '2.0.0',
+317 silly addNameRange     '2.0.1',
+317 silly addNameRange     '2.1.0',
+317 silly addNameRange     '2.1.1',
+317 silly addNameRange     '2.2.0',
+317 silly addNameRange     '2.2.1',
+317 silly addNameRange     '2.2.2',
+317 silly addNameRange     '2.2.4',
+317 silly addNameRange     '2.3.0',
+317 silly addNameRange     '2.4.0',
+317 silly addNameRange     '2.4.1',
+317 silly addNameRange     '3.0.0-alpha.1',
+317 silly addNameRange     '2.5.0',
+317 silly addNameRange     '2.5.1',
+317 silly addNameRange     '2.5.2',
+317 silly addNameRange     '0.13.6',
+317 silly addNameRange     '2.6.0',
+317 silly addNameRange     '3.0.0-alpha.2',
+317 silly addNameRange     '2.6.1',
+317 silly addNameRange     '3.0.0-alpha.3',
+317 silly addNameRange     '2.7.0',
+317 silly addNameRange     '2.8.0',
+317 silly addNameRange     '4.0.0-0',
+317 silly addNameRange     '4.0.0-1',
+317 silly addNameRange     '4.0.0-2',
+317 silly addNameRange     '2.8.1',
+317 silly addNameRange     '3.0.0-beta.1',
+317 silly addNameRange     '4.0.0-alpha.3',
+317 silly addNameRange     '4.0.0-alpha.4',
+317 silly addNameRange     '4.0.0-alpha.5',
+317 silly addNameRange     '3.0.0',
+317 silly addNameRange     '4.0.0-alpha.6',
+317 silly addNameRange     '3.0.1',
+317 silly addNameRange     '3.0.2',
+317 silly addNameRange     '4.0.0-beta.1',
+317 silly addNameRange     '4.0.0-beta.2',
+317 silly addNameRange     '4.0.0-beta.3',
+317 silly addNameRange     '4.0.0-beta.4',
+317 silly addNameRange     '4.0.0-beta.5',
+317 silly addNameRange     '4.0.0-beta.6',
+317 silly addNameRange     ... 13 more items ] ]
+318 silly addNamed react-router@3.2.0
+319 verbose addNamed "3.2.0" is a plain semver version for react-router
+320 verbose afterAdd /Users/williamcox/.npm/react/15.6.2/package/package.json written
+321 verbose afterAdd /Users/williamcox/.npm/express-session/1.15.6/package/package.json written
+322 verbose afterAdd /Users/williamcox/.npm/react-dom/15.6.2/package/package.json written
+323 verbose afterAdd /Users/williamcox/.npm/body-parser/1.18.2/package/package.json written
+324 http 200 https://registry.npmjs.org/redux
+325 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+325 verbose headers   server: 'UploadServer',
+325 verbose headers   'cache-control': 'max-age=300',
+325 verbose headers   'last-modified': 'Tue, 5 Dec 2017 17:57:08 GMT',
+325 verbose headers   etag: '"5a26ddf4-2a043"',
+325 verbose headers   'content-length': '172099',
+325 verbose headers   'accept-ranges': 'bytes',
+325 verbose headers   date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+325 verbose headers   via: '1.1 varnish',
+325 verbose headers   age: '0',
+325 verbose headers   connection: 'keep-alive',
+325 verbose headers   'x-served-by': 'cache-bur17522-BUR',
+325 verbose headers   'x-cache': 'MISS',
+325 verbose headers   'x-cache-hits': '0',
+325 verbose headers   'x-timer': 'S1512621954.283202,VS0,VE171',
+325 verbose headers   vary: 'Accept-Encoding, Accept' }
+326 silly get cb [ 200,
+326 silly get   { 'content-type': 'application/json; charset=UTF-8',
+326 silly get     server: 'UploadServer',
+326 silly get     'cache-control': 'max-age=300',
+326 silly get     'last-modified': 'Tue, 5 Dec 2017 17:57:08 GMT',
+326 silly get     etag: '"5a26ddf4-2a043"',
+326 silly get     'content-length': '172099',
+326 silly get     'accept-ranges': 'bytes',
+326 silly get     date: 'Thu, 07 Dec 2017 04:45:54 GMT',
+326 silly get     via: '1.1 varnish',
+326 silly get     age: '0',
+326 silly get     connection: 'keep-alive',
+326 silly get     'x-served-by': 'cache-bur17522-BUR',
+326 silly get     'x-cache': 'MISS',
+326 silly get     'x-cache-hits': '0',
+326 silly get     'x-timer': 'S1512621954.283202,VS0,VE171',
+326 silly get     vary: 'Accept-Encoding, Accept' } ]
+327 verbose get saving redux to /Users/williamcox/.npm/registry.npmjs.org/redux/.cache.json
+328 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+329 silly cache afterAdd react-redux@4.4.8
+330 verbose afterAdd /Users/williamcox/.npm/react-redux/4.4.8/package/package.json not in flight; writing
+331 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+332 silly cache afterAdd react-router@3.2.0
+333 verbose afterAdd /Users/williamcox/.npm/react-router/3.2.0/package/package.json not in flight; writing
+334 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+335 silly resolveWithNewModule express@4.16.2 checking installable status
+336 silly cache add args [ 'express@^4.14.1', null ]
+337 verbose cache add spec express@^4.14.1
+338 silly cache add parsed spec Result {
+338 silly cache add   raw: 'express@^4.14.1',
+338 silly cache add   scope: null,
+338 silly cache add   escapedName: 'express',
+338 silly cache add   name: 'express',
+338 silly cache add   rawSpec: '^4.14.1',
+338 silly cache add   spec: '>=4.14.1 <5.0.0',
+338 silly cache add   type: 'range' }
+339 silly addNamed express@>=4.14.1 <5.0.0
+340 verbose addNamed ">=4.14.1 <5.0.0" is a valid semver range for express
+341 silly addNameRange { name: 'express', range: '>=4.14.1 <5.0.0', hasData: false }
+342 silly mapToRegistry name express
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry data Result {
+345 silly mapToRegistry   raw: 'express',
+345 silly mapToRegistry   scope: null,
+345 silly mapToRegistry   escapedName: 'express',
+345 silly mapToRegistry   name: 'express',
+345 silly mapToRegistry   rawSpec: '',
+345 silly mapToRegistry   spec: 'latest',
+345 silly mapToRegistry   type: 'tag' }
+346 silly mapToRegistry uri https://registry.npmjs.org/express
+347 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+348 verbose afterAdd /Users/williamcox/.npm/react-redux/4.4.8/package/package.json written
+349 verbose afterAdd /Users/williamcox/.npm/react-router/3.2.0/package/package.json written
+350 verbose get https://registry.npmjs.org/express not expired, no request
+351 silly addNameRange number 2 { name: 'express', range: '>=4.14.1 <5.0.0', hasData: true }
+352 silly addNameRange versions [ 'express',
+352 silly addNameRange   [ '0.14.0',
+352 silly addNameRange     '0.14.1',
+352 silly addNameRange     '1.0.0',
+352 silly addNameRange     '1.0.1',
+352 silly addNameRange     '1.0.2',
+352 silly addNameRange     '1.0.3',
+352 silly addNameRange     '1.0.4',
+352 silly addNameRange     '1.0.5',
+352 silly addNameRange     '1.0.6',
+352 silly addNameRange     '1.0.7',
+352 silly addNameRange     '1.0.8',
+352 silly addNameRange     '2.0.0',
+352 silly addNameRange     '2.1.0',
+352 silly addNameRange     '2.1.1',
+352 silly addNameRange     '2.2.0',
+352 silly addNameRange     '2.2.1',
+352 silly addNameRange     '2.2.2',
+352 silly addNameRange     '2.3.0',
+352 silly addNameRange     '2.3.1',
+352 silly addNameRange     '2.3.2',
+352 silly addNameRange     '2.3.3',
+352 silly addNameRange     '2.3.4',
+352 silly addNameRange     '2.3.5',
+352 silly addNameRange     '2.3.6',
+352 silly addNameRange     '2.3.7',
+352 silly addNameRange     '2.3.8',
+352 silly addNameRange     '2.3.9',
+352 silly addNameRange     '2.3.10',
+352 silly addNameRange     '2.3.11',
+352 silly addNameRange     '2.3.12',
+352 silly addNameRange     '2.4.0',
+352 silly addNameRange     '2.4.1',
+352 silly addNameRange     '2.4.2',
+352 silly addNameRange     '2.4.3',
+352 silly addNameRange     '2.4.4',
+352 silly addNameRange     '2.4.5',
+352 silly addNameRange     '2.4.6',
+352 silly addNameRange     '2.4.7',
+352 silly addNameRange     '2.5.0',
+352 silly addNameRange     '2.5.1',
+352 silly addNameRange     '2.5.2',
+352 silly addNameRange     '2.5.3',
+352 silly addNameRange     '2.5.4',
+352 silly addNameRange     '2.5.5',
+352 silly addNameRange     '2.5.6',
+352 silly addNameRange     '2.5.7',
+352 silly addNameRange     '2.5.8',
+352 silly addNameRange     '2.5.9',
+352 silly addNameRange     '2.5.10',
+352 silly addNameRange     '2.5.11',
+352 silly addNameRange     '3.0.0',
+352 silly addNameRange     '3.0.1',
+352 silly addNameRange     '3.0.2',
+352 silly addNameRange     '3.0.3',
+352 silly addNameRange     '3.0.4',
+352 silly addNameRange     '3.0.5',
+352 silly addNameRange     '3.0.6',
+352 silly addNameRange     '3.1.0',
+352 silly addNameRange     '3.1.1',
+352 silly addNameRange     '3.1.2',
+352 silly addNameRange     '3.2.0',
+352 silly addNameRange     '3.2.1',
+352 silly addNameRange     '3.2.2',
+352 silly addNameRange     '3.2.3',
+352 silly addNameRange     '3.2.4',
+352 silly addNameRange     '3.2.5',
+352 silly addNameRange     '3.2.6',
+352 silly addNameRange     '3.3.0',
+352 silly addNameRange     '3.3.1',
+352 silly addNameRange     '3.3.2',
+352 silly addNameRange     '3.3.3',
+352 silly addNameRange     '3.3.4',
+352 silly addNameRange     '3.3.5',
+352 silly addNameRange     '3.3.6',
+352 silly addNameRange     '1.0.0-beta',
+352 silly addNameRange     '1.0.0-beta2',
+352 silly addNameRange     '1.0.0-rc',
+352 silly addNameRange     '1.0.0-rc2',
+352 silly addNameRange     '1.0.0-rc3',
+352 silly addNameRange     '1.0.0-rc4',
+352 silly addNameRange     '2.0.0-beta',
+352 silly addNameRange     '2.0.0-beta2',
+352 silly addNameRange     '2.0.0-beta3',
+352 silly addNameRange     '2.0.0-rc',
+352 silly addNameRange     '2.0.0-rc2',
+352 silly addNameRange     '2.0.0-rc3',
+352 silly addNameRange     '3.0.0-alpha1',
+352 silly addNameRange     '3.0.0-alpha2',
+352 silly addNameRange     '3.0.0-alpha3',
+352 silly addNameRange     '3.0.0-alpha4',
+352 silly addNameRange     '3.0.0-alpha5',
+352 silly addNameRange     '3.0.0-beta1',
+352 silly addNameRange     '3.0.0-beta2',
+352 silly addNameRange     '3.0.0-beta3',
+352 silly addNameRange     '3.0.0-beta4',
+352 silly addNameRange     '3.0.0-beta6',
+352 silly addNameRange     '3.0.0-beta7',
+352 silly addNameRange     '3.0.0-rc1',
+352 silly addNameRange     '3.0.0-rc2',
+352 silly addNameRange     '3.0.0-rc3',
+352 silly addNameRange     ... 158 more items ] ]
+353 silly addNamed express@4.16.2
+354 verbose addNamed "4.16.2" is a plain semver version for express
+355 silly resolveWithNewModule redux@3.7.2 checking installable status
+356 silly cache add args [ 'redux@^3.6.0', null ]
+357 verbose cache add spec redux@^3.6.0
+358 silly cache add parsed spec Result {
+358 silly cache add   raw: 'redux@^3.6.0',
+358 silly cache add   scope: null,
+358 silly cache add   escapedName: 'redux',
+358 silly cache add   name: 'redux',
+358 silly cache add   rawSpec: '^3.6.0',
+358 silly cache add   spec: '>=3.6.0 <4.0.0',
+358 silly cache add   type: 'range' }
+359 silly addNamed redux@>=3.6.0 <4.0.0
+360 verbose addNamed ">=3.6.0 <4.0.0" is a valid semver range for redux
+361 silly addNameRange { name: 'redux', range: '>=3.6.0 <4.0.0', hasData: false }
+362 silly mapToRegistry name redux
+363 silly mapToRegistry using default registry
+364 silly mapToRegistry registry https://registry.npmjs.org/
+365 silly mapToRegistry data Result {
+365 silly mapToRegistry   raw: 'redux',
+365 silly mapToRegistry   scope: null,
+365 silly mapToRegistry   escapedName: 'redux',
+365 silly mapToRegistry   name: 'redux',
+365 silly mapToRegistry   rawSpec: '',
+365 silly mapToRegistry   spec: 'latest',
+365 silly mapToRegistry   type: 'tag' }
+366 silly mapToRegistry uri https://registry.npmjs.org/redux
+367 verbose addNameRange registry:https://registry.npmjs.org/redux not in flight; fetching
+368 verbose get https://registry.npmjs.org/redux not expired, no request
+369 silly addNameRange number 2 { name: 'redux', range: '>=3.6.0 <4.0.0', hasData: true }
+370 silly addNameRange versions [ 'redux',
+370 silly addNameRange   [ '0.0.1',
+370 silly addNameRange     '0.0.2',
+370 silly addNameRange     '0.0.3',
+370 silly addNameRange     '0.0.4',
+370 silly addNameRange     '0.1.0',
+370 silly addNameRange     '0.2.0',
+370 silly addNameRange     '0.2.1',
+370 silly addNameRange     '0.2.2',
+370 silly addNameRange     '0.3.0',
+370 silly addNameRange     '0.3.1',
+370 silly addNameRange     '0.4.0',
+370 silly addNameRange     '0.5.0',
+370 silly addNameRange     '0.5.1',
+370 silly addNameRange     '0.6.0',
+370 silly addNameRange     '0.6.1',
+370 silly addNameRange     '0.6.2',
+370 silly addNameRange     '0.7.0',
+370 silly addNameRange     '0.8.0',
+370 silly addNameRange     '0.8.1',
+370 silly addNameRange     '0.9.0',
+370 silly addNameRange     '0.10.0',
+370 silly addNameRange     '0.10.1',
+370 silly addNameRange     '0.11.0',
+370 silly addNameRange     '0.11.1',
+370 silly addNameRange     '0.12.0',
+370 silly addNameRange     '1.0.0-alpha',
+370 silly addNameRange     '1.0.0-rc',
+370 silly addNameRange     '1.0.0',
+370 silly addNameRange     '1.0.1',
+370 silly addNameRange     '2.0.0',
+370 silly addNameRange     '3.0.0',
+370 silly addNameRange     '3.0.1',
+370 silly addNameRange     '3.0.2',
+370 silly addNameRange     '3.0.3',
+370 silly addNameRange     '3.0.4',
+370 silly addNameRange     '3.0.5',
+370 silly addNameRange     '3.0.6',
+370 silly addNameRange     '3.1.0',
+370 silly addNameRange     '3.1.1',
+370 silly addNameRange     '3.1.2',
+370 silly addNameRange     '3.1.3',
+370 silly addNameRange     '3.1.4',
+370 silly addNameRange     '3.1.5',
+370 silly addNameRange     '3.1.6',
+370 silly addNameRange     '3.1.7',
+370 silly addNameRange     '3.2.0',
+370 silly addNameRange     '3.2.1',
+370 silly addNameRange     '3.3.0',
+370 silly addNameRange     '3.3.1',
+370 silly addNameRange     '3.4.0',
+370 silly addNameRange     '3.5.0',
+370 silly addNameRange     '3.5.1',
+370 silly addNameRange     '3.5.2',
+370 silly addNameRange     '3.6.0',
+370 silly addNameRange     '3.7.0',
+370 silly addNameRange     '3.7.1',
+370 silly addNameRange     '3.7.2',
+370 silly addNameRange     '4.0.0-beta.1' ] ]
+371 silly addNamed redux@3.7.2
+372 verbose addNamed "3.7.2" is a plain semver version for redux
+373 silly cache afterAdd express@4.16.2
+374 verbose afterAdd /Users/williamcox/.npm/express/4.16.2/package/package.json not in flight; writing
+375 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+376 silly cache afterAdd redux@3.7.2
+377 verbose afterAdd /Users/williamcox/.npm/redux/3.7.2/package/package.json not in flight; writing
+378 verbose correctMkdir /Users/williamcox/.npm correctMkdir not in flight; initializing
+379 verbose afterAdd /Users/williamcox/.npm/express/4.16.2/package/package.json written
+380 verbose afterAdd /Users/williamcox/.npm/redux/3.7.2/package/package.json written
+381 verbose mirrorRemote git+https://git@github.com/WilliamCox7/fb-auth-boiler.git git clone https://git@github.com/WilliamCox7/fb-auth-boiler.git
+382 verbose correctMkdir /Users/williamcox/.npm/_git-remotes correctMkdir not in flight; initializing
+383 verbose setPermissions git+https://git@github.com/WilliamCox7/fb-auth-boiler.git set permissions on /Users/williamcox/.npm/_git-remotes/git-https-git-github-com-WilliamCox7-fb-auth-boiler-git-0b9c3020
+384 verbose resolveHead git+https://git@github.com/WilliamCox7/fb-auth-boiler.git original treeish: master
+385 info git [ 'rev-list', '-n1', 'master' ]
+386 silly resolveHead git+https://git@github.com/WilliamCox7/fb-auth-boiler.git resolved treeish: 92681f35950ee8fb71b2818b58742355dc7a1e21
+387 verbose resolveHead git+https://git@github.com/WilliamCox7/fb-auth-boiler.git resolved Git URL: git+https://git@github.com/WilliamCox7/fb-auth-boiler.git#92681f35950ee8fb71b2818b58742355dc7a1e21
+388 silly resolveHead Git working directory: /var/folders/13/tlfzg11d37v0klrmw5c77hq80000gn/T/npm-15470-46ce2bdd/git-cache-d54f59b6/92681f35950ee8fb71b2818b58742355dc7a1e21
+389 info git [ 'clone',
+389 info git   '/Users/williamcox/.npm/_git-remotes/git-https-git-github-com-WilliamCox7-fb-auth-boiler-git-0b9c3020',
+389 info git   '/var/folders/13/tlfzg11d37v0klrmw5c77hq80000gn/T/npm-15470-46ce2bdd/git-cache-d54f59b6/92681f35950ee8fb71b2818b58742355dc7a1e21' ]
+390 verbose cloneResolved git+https://git@github.com/WilliamCox7/fb-auth-boiler.git clone Cloning into '/var/folders/13/tlfzg11d37v0klrmw5c77hq80000gn/T/npm-15470-46ce2bdd/git-cache-d54f59b6/92681f35950ee8fb71b2818b58742355dc7a1e21'...
+390 verbose cloneResolved done.
+391 info git [ 'checkout', '92681f35950ee8fb71b2818b58742355dc7a1e21' ]
+392 verbose checkoutTreeish git+https://git@github.com/WilliamCox7/fb-auth-boiler.git checkout Note: checking out '92681f35950ee8fb71b2818b58742355dc7a1e21'.
+392 verbose checkoutTreeish
+392 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+392 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+392 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+392 verbose checkoutTreeish
+392 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+392 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+392 verbose checkoutTreeish
+392 verbose checkoutTreeish   git checkout -b <new-branch-name>
+392 verbose checkoutTreeish
+392 verbose checkoutTreeish HEAD is now at 92681f3... init commit
+393 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+394 verbose updateSubmodules git+https://git@github.com/WilliamCox7/fb-auth-boiler.git submodule update
+395 error addLocal Could not install /var/folders/13/tlfzg11d37v0klrmw5c77hq80000gn/T/npm-15470-46ce2bdd/git-cache-d54f59b6/92681f35950ee8fb71b2818b58742355dc7a1e21
+396 silly fetchPackageMetaData Error: EISDIR: illegal operation on a directory, read
+396 silly fetchPackageMetaData     at Error (native)
+396 silly fetchPackageMetaData  error for fb-auth-boiler@git+https://git@github.com/WilliamCox7/fb-auth-boiler.git { Error: EISDIR: illegal operation on a directory, read
+396 silly fetchPackageMetaData     at Error (native) errno: -21, code: 'EISDIR', syscall: 'read' }
+397 silly rollbackFailedOptional Starting
+398 silly rollbackFailedOptional Finishing
+399 silly runTopLevelLifecycles Finishing
+400 silly install printInstalled
+401 verbose stack Error: EISDIR: illegal operation on a directory, read
+401 verbose stack     at Error (native)
+402 verbose cwd /Users/williamcox/Documents/repositories/react-boiler
+403 error Darwin 17.2.0
+404 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+405 error node v6.11.4
+406 error npm  v3.10.10
+407 error code EISDIR
+408 error errno -21
+409 error syscall read
+410 error eisdir EISDIR: illegal operation on a directory, read
+411 error eisdir This is most likely not a problem with npm itself
+411 error eisdir and is related to npm not being able to find a package.json in
+411 error eisdir a package you are trying to install.
+412 verbose exit [ -21, true ]
